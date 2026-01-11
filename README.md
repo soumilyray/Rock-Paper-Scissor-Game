@@ -1,33 +1,64 @@
-Rock Paper Scissors Game 🎮
 
-A simple interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScript. Play against the computer and see if you can beat it!
 
-Features ✨
+# Rock Paper Scissors Game 🎮✊🖐✌️
 
-User-friendly interface with buttons for Rock, Paper, and Scissors.
+A fun and interactive **Rock-Paper-Scissors** game built using **HTML, CSS, and JavaScript**. Challenge the computer and test your luck and strategy!
 
-Computer randomly generates its choice.
+## Table of Contents 📑
 
-Keeps track of scores for both User and Computer.
+1. [Game Description](#game-description)
+2. [Features](#features)
+3. [Game Rules](#game-rules)
+4. [How It Works](#how-it-works)
+5. [Technologies Used](#technologies-used)
+6. [How to Play](#how-to-play)
 
-Displays result messages like Win, Lose, or Draw.
+## Game Description 🎯
 
-Fully responsive design for desktop and mobile devices.
+Rock-Paper-Scissors is a classic hand game played between **two players**. In this web version, you play against the computer. Each round, you choose **Rock**, **Paper**, or **Scissors**, and the computer randomly chooses as well. The game then determines the winner.
 
-How to Play ▶️
+---
 
-Open the game in a browser.
+## Features ✨
 
-Click on Rock, Paper, or Scissors to make your move.
+* **Interactive buttons** for Rock, Paper, and Scissors.
+* **Score tracking** for both user and computer.
+* **Real-time game results**: Win, Lose, or Draw.
+* **Responsive design** for all devices.
+* Easy to **understand and play**.
 
-The computer will randomly choose its move.
+---
 
-The winner will be displayed, and scores will update automatically.
+## Game Rules 📜
 
-Technologies Used 🛠️
+* Rock **beats** Scissors
+* Scissors **beats** Paper
+* Paper **beats** Rock
+* If both choose the same, it’s a **draw**.
 
-HTML – Structure of the game.
+---
 
-CSS – Styling and layout.
+## How It Works ⚙️
 
-JavaScript – Game logic and interactivity.
+1. User selects a choice by clicking a button.
+2. The computer randomly generates its choice.
+3. JavaScript compares both choices and determines the winner.
+4. Scores update and a message is displayed to show the result.
+
+---
+
+## Technologies Used 🛠️
+
+* **HTML** – Game structure.
+* **CSS** – Styling, animations, and responsive layout.
+* **JavaScript** – Game logic, event handling, and score tracking.
+
+---
+
+## How to Play ▶️
+
+1. Open the game in any web browser.
+2. Click on **Rock**, **Paper**, or **Scissors**.
+3. Watch the computer’s choice.
+4. See who wins the round and track scores.
+
