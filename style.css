@@ -69,6 +69,21 @@ h1{
     padding: 0.8rem 1.5rem;
     border-radius: 1rem;
 }
+.footer{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #000;
+    color: #aaa;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.footer span{
+    font-family: 'Pacifico', cursive;
+     color: rgb(148, 4, 85);
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
 @media (max-width: 480px){
     .choices{
         gap: 1rem;
@@ -78,3 +93,4 @@ h1{
         gap: 1.5rem;
     }
 }
+
