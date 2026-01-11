@@ -62,3 +62,20 @@ Rock-Paper-Scissors is a classic hand game played between **two players**. In th
 3. Watch the computer’s choice.
 4. See who wins the round and track scores.
 
+---
+
+## Game Screenshots 📸
+
+### 1️⃣ Draw
+![Draw](draw.png)  
+*Both player and computer chose the same. Result: Draw.*
+
+### 2️⃣ User Wins
+![User Wins](win.png)  
+*User wins this round!*
+
+### 3️⃣ User Loses
+![User Loses](lose.png)  
+*Computer wins this round!*
+
+
