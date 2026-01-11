@@ -1,69 +1,80 @@
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body{
     background-color: black;
+    text-align: center;
+    min-height: 100vh;
 }
 h1{
     background-color: rgb(200, 247, 255);
     color: rgb(0, 14, 26);
-    height: 5rem;
-    text-align: center;
-    line-height: 5rem;
-}
-.choice:hover{
-    opacity: 0.5;
-    cursor: pointer;
-}
-.choice{
-    height: 165px;
-    width: 165px;
-}
-img{
-    height: 150px;
-    width: 150px;
-   object-fit:cover;
-   border-radius: 15%;
+    padding: 1rem;
+    font-size: clamp(1.4rem, 4vw, 2.5rem);
 }
 .choices{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:3rem;
+    flex-wrap: wrap;          
+    gap: 1.5rem;
     margin-top: 2rem;
+}
+.choice{
+    width: clamp(90px, 25vw, 165px);  
+    cursor: pointer;
+}
+.choice:hover{
+    opacity: 0.6;
+}
+.choice img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15%;
 }
 .score-board{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    gap: clamp(2rem, 10vw, 5rem);
     margin-top: 2rem;
-    gap: 5rem;
-    color:aliceblue;
+    color: aliceblue;
+    font-size: clamp(1.2rem, 3vw, 2rem);
 }
 .score{
     display: flex;
-    flex-direction: column;  
-    align-items: center;    
+    flex-direction: column;
+    align-items: center;
 }
-#user-score,#computer-score{
-    font-size: 5rem;
+#user-score,
+#computer-score{
+    font-size: clamp(2.5rem, 6vw, 5rem);
 }
-#you,#com{
-    font-size: 1.5rem;
+#you,
+#com{
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
 .msg-container{
-     height: 8rem;         
+    margin-top: 2rem;
     display: flex;
-    justify-content: center; 
-    align-items: center;  
-
+    justify-content: center;
 }
 #msg{
     background-color: rgb(200, 247, 255);
     color: black;
-   font-size: 1.5rem;
-   padding: 1rem 2rem;
-    display: inline;
-    align-items: center;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    padding: 0.8rem 1.5rem;
     border-radius: 1rem;
+}
+@media (max-width: 480px){
+    .choices{
+        gap: 1rem;
+    }
+
+    .score-board{
+        gap: 1.5rem;
+    }
 }
